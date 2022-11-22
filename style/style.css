@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+nav .navbar_logo h1 {
+  font-size: 30px;
+}
+nav .navbar_menu ul {
+  display: flex;
+}
+nav .navbar_menu ul li {
+  margin-left: 30px;
+  list-style: none;
+  margin-top: 12px;
+}
+nav .navbar_menu ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+nav .navbar_card p {
+  margin-left: 600px;
+}
+nav .navbar_card p button {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.shop {
+  background-color: black;
+  width: 100%;
+  height: 250px;
+}
+.shop .shop_text {
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+.shop .shop_text h2 {
+  font-size: 60px;
+}
+.shop .shop_text p {
+  font-size: 21px;
+  color: gray;
+}
+
+.card {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card .card_element {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  border: 1px solid;
+  border-radius: 7px;
+}
+.card .card_element .card_icon {
+  color: yellow;
+}
+.card .card_element .card_element_img img {
+  border-radius: 7px 7px 0 0;
+  width: 100%;
+  height: 100%;
+}
+.card .card_element h2 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.card .card_element p {
+  font-size: 17px;
+  padding-top: 20px;
+}
+.card .card_element button {
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.card .card_element button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.7s;
+}/*# sourceMappingURL=style.css.map */
